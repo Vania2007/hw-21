@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фильмы</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            padding: 30px;
+            margin-top: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+        .movie-card {
+            margin: 20px;
+            border: 1px solid #ff0000;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: box-shadow 0.3s;
+        }
+        .movie-card:hover {
+            box-shadow: 0 8px 30px rgba(255, 0, 0, 0.6);
+        }
+        .movie-image {
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+        }
+        .movie-title {
+            font-size: 1.5em;
+            color: #ff0000;
+            text-decoration: none;
+        }
+        .movie-theater, .movie-date {
+            color: #ccc;
+        }
+        .card-body {
+            background-color: #222;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="text-center my-4">Список фільмів</h1><div class='row'><div class='col-md-4'>
+        <a href='https://multiplex.ua/movie/355619' class='text-decoration-none'>
+            <div class='movie-card card'>
+                <img src='https://multiplex.ua/images/f3/e6/f3e638a237e295f019f1da2c713113a6.jpeg' class='movie-image card-img-top' alt='Муфаса: Король Лев'>
+                <div class=' card-body'>
+                    <h5 class='movie-title card-title'>Муфаса: Король Лев</h5>
+                    <p class='movie-theater'>Кінотеатр: Дафі</p>
+                    <p class='movie-date'>Дата: 19 грудня</p>
+                </div>
+            </div>
+        </a>
+    </div>
+<div class='col-md-4'>
+        <a href='https://multiplex.ua/movie/355792' class='text-decoration-none'>
+            <div class='movie-card card'>
+                <img src='https://multiplex.ua/images/d7/ab/d7ab4139756384765764f6f6ebc150f9.jpeg' class='movie-image card-img-top' alt='Wicked: Чародійка'>
+                <div class=' card-body'>
+                    <h5 class='movie-title card-title'>Wicked: Чародійка</h5>
+                    <p class='movie-theater'>Кінотеатр: Дафі</p>
+                    <p class='movie-date'>Дата: Завтра</p>
+                </div>
+            </div>
+        </a>
+    </div>
+<div class='col-md-4'>
+        <a href='https://multiplex.ua/movie/355983' class='text-decoration-none'>
+            <div class='movie-card card'>
+                <img src='https://multiplex.ua/images/84/e2/84e2e3f2c8e33bd3ac8b7b82b6f5cc27.jpeg' class='movie-image card-img-top' alt='Гладіатор ІІ'>
+                <div class=' card-body'>
+                    <h5 class='movie-title card-title'>Гладіатор ІІ</h5>
+                    <p class='movie-theater'>Кінотеатр: Дафі</p>
+                    <p class='movie-date'>Дата: Завтра</p>
+                </div>
+            </div>
+        </a>
+    </div>
+<div class='col-md-4'>
+        <a href='https://multiplex.ua/movie/356027' class='text-decoration-none'>
+            <div class='movie-card card'>
+                <img src='https://multiplex.ua/images/20/c1/20c129219156ab536bb4c96cfbb93897.jpeg' class='movie-image card-img-top' alt='Конклав'>
+                <div class=' card-body'>
+                    <h5 class='movie-title card-title'>Конклав</h5>
+                    <p class='movie-theater'>Кінотеатр: Дафі</p>
+                    <p class='movie-date'>Дата: Завтра</p>
+                </div>
+            </div>
+        </a>
+    </div>
+<div class='col-md-4'>
+        <a href='https://multiplex.ua/movie/355734' class='text-decoration-none'>
+            <div class='movie-card card'>
+                <img src='https://multiplex.ua/images/aa/be/aabe4ffd4f4a1651210665df6b412709.jpeg' class='movie-image card-img-top' alt='Ваяна 2'>
+                <div class=' card-body'>
+                    <h5 class='movie-title card-title'>Ваяна 2</h5>
+                    <p class='movie-theater'>Кінотеатр: Дафі</p>
+                    <p class='movie-date'>Дата: 28 листопада</p>
+                </div>
+            </div>
+        </a>
+    </div>
+<div class='col-md-4'>
+        <a href='https://multiplex.ua/movie/355812' class='text-decoration-none'>
+            <div class='movie-card card'>
+                <img src='https://multiplex.ua/images/44/75/44756e0d8390325ab6eb9e664baca892.jpeg' class='movie-image card-img-top' alt='Кодове ім&#39;я &#34;Червоний&#34;'>
+                <div class=' card-body'>
+                    <h5 class='movie-title card-title'>Кодове ім&#39;я &#34;Червоний&#34;</h5>
+                    <p class='movie-theater'>Кінотеатр: Дафі</p>
+                    <p class='movie-date'>Дата: Завтра</p>
+                </div>
+            </div>
+        </a>
+    </div>
+<div class='col-md-4'>
+        <a href='https://multiplex.ua/movie/356148' class='text-decoration-none'>
+            <div class='movie-card card'>
+                <img src='https://multiplex.ua/images/6e/e3/6ee38113f22251699bce44770b575bd0.jpeg' class='movie-image card-img-top' alt='Жахаючий 3'>
+                <div class=' card-body'>
+                    <h5 class='movie-title card-title'>Жахаючий 3</h5>
+                    <p class='movie-theater'>Кінотеатр: Дафі</p>
+                    <p class='movie-date'>Дата: Завтра</p>
+                </div>
+            </div>
+        </a>
+    </div>
+<div class='col-md-4'>
+        <a href='https://multiplex.ua/movie/356008' class='text-decoration-none'>
+            <div class='movie-card card'>
+                <img src='https://multiplex.ua/images/c7/47/c74704a8890c60d723e2569bf2e771c2.jpeg' class='movie-image card-img-top' alt='Мертві землі'>
+                <div class=' card-body'>
+                    <h5 class='movie-title card-title'>Мертві землі</h5>
+                    <p class='movie-theater'>Кінотеатр: Дафі</p>
+                    <p class='movie-date'>Дата: Завтра</p>
+                </div>
+            </div>
+        </a>
+    </div>
+<div class='col-md-4'>
+        <a href='https://multiplex.ua/movie/355786' class='text-decoration-none'>
+            <div class='movie-card card'>
+                <img src='https://multiplex.ua/images/f2/90/f29080442cdfd88cf698b71c337bc947.jpeg' class='movie-image card-img-top' alt='Дикий робот'>
+                <div class=' card-body'>
+                    <h5 class='movie-title card-title'>Дикий робот</h5>
+                    <p class='movie-theater'>Кінотеатр: Дафі</p>
+                    <p class='movie-date'>Дата: Завтра</p>
+                </div>
+            </div>
+        </a>
+    </div>
+<div class='col-md-4'>
+        <a href='https://multiplex.ua/movie/355737' class='text-decoration-none'>
+            <div class='movie-card card'>
+                <img src='https://multiplex.ua/images/99/34/993463442cc688edc5fb3beb1e5ba346.jpeg' class='movie-image card-img-top' alt='Веном: Останній танець'>
+                <div class=' card-body'>
+                    <h5 class='movie-title card-title'>Веном: Останній танець</h5>
+                    <p class='movie-theater'>Кінотеатр: Дафі</p>
+                    <p class='movie-date'>Дата: Завтра</p>
+                </div>
+            </div>
+        </a>
+    </div></div></div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
